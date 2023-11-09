@@ -14,8 +14,34 @@ html {
 body {
     font-family: 'Outfit', sans-serif;
     font-size: 1.5rem;
+    color: var(--grayish-blue);
+    background-color: var(--light-gray);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-@media only screen and (max-width: 375px) {
-    
+.card {
+    background-color: var(--color-white);
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+img {
+    margin: 5%;
+    width: 288px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: var(--dark-blue);
+    margin: 5%;
+}
+
+p {
+    display: inline-block;
+    margin: 5%;
 }
